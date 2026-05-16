@@ -21,7 +21,7 @@ def min_connect_cost(cables):
         return 0
     
     heap = cables[:]  # створити копію для роботи з heap
-    heapq.heapify(cables)  # перетворити список на min-heap
+    heapq.heapify(heap)  # перетворити список на min-heap
     
     total_cost = 0
 
