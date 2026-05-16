@@ -36,7 +36,7 @@ def main():
         root = insert(root, key)
 
     print("Сума всіх значень:", find_tree_sum(root))
-    # 10+20+30+25+28+27+(-1) = 139
+    
 
 
 if __name__ == "__main__":
